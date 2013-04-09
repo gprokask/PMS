@@ -45,7 +45,7 @@
 				<executions>
 					<execution>
 						<configuration>
-							<module>de.gp.pms.WebApp</module>
+							<module>de.gp.pms.client.WebApp</module>
 						</configuration>
 						<goals>
 							<goal>compile</goal>
