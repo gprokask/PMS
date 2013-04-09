@@ -9,6 +9,7 @@
 		<module>pms-client</module>
 		<module>pms-common</module>
 		<module>pms-server</module>
+		<module>pms-webapp</module>
 	</modules>
 	<dependencyManagement>
 		<dependencies>
@@ -25,6 +26,11 @@
 			<dependency>
 				<groupId>de.gp.pms</groupId>
 				<artifactId>pms-server</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>de.gp.pms</groupId>
+				<artifactId>pms-webapp</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
