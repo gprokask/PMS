@@ -6,7 +6,7 @@
 		<artifactId>pms</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>pms-client</artifactId>
+	<artifactId>pms-common</artifactId>
 	<dependencies>
 		<dependency>
 			<groupId>com.google.gwt</groupId>
@@ -14,9 +14,13 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
+			<groupId>com.google.gwt</groupId>
+			<artifactId>gwt-servlet</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
 			<groupId>com.sencha.gxt</groupId>
 			<artifactId>gxt</artifactId>
-			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 </project>
