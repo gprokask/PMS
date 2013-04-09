@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <module>
 	<entry-point class="de.gp.pms.client.Application" />
 	<inherits name="de.gp.pms.client.Client" />
