@@ -4,4 +4,8 @@
 <module>
 	<inherits name="com.google.gwt.user.User" />
 	<inherits name="com.sencha.gxt.ui.GXT" />
+	<inherits name="net.customware.gwt.presenter.Presenter" />
+	<inherits name="com.google.gwt.inject.Inject" />
+	
+	<source path="client"/>
 </module>
