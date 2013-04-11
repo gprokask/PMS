@@ -11,6 +11,13 @@
 		<module>pms-server</module>
 		<module>pms-webapp</module>
 	</modules>
+	<repositories>
+		<repository>
+			<id>sencha-commercial-release</id>
+			<name>Sencha commercial releases</name>
+			<url>https://maven.sencha.com/repo/commercial-release/</url>
+		</repository>
+	</repositories>
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
